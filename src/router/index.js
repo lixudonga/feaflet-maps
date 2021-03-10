@@ -13,13 +13,13 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       hidden: false,
       meta: {
         title: '首页'
       },
-      component: () => import('@/view/home')
+      component: () => import('@/view/home/home')
     }
   ]
 })
